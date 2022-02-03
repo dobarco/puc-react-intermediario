@@ -1,0 +1,14 @@
+.alunos_button {
+    padding: 5px;
+    border-radius: 5px;
+    border: 0px;
+    background-color:aliceblue;
+    color: rgb(66, 66, 176);
+    margin: 10px;
+    cursor: pointer;
+}
+
+.alunos_button:hover{
+    background-color:rgb(66, 66, 176);
+    color: aliceblue;
+}

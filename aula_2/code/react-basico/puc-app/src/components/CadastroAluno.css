@@ -1,0 +1,7 @@
+.cadastro_aluno__control.invalid input{
+    border-color: red;
+}
+
+.cadastro_aluno__control.invalid label{
+    color: red;
+}
