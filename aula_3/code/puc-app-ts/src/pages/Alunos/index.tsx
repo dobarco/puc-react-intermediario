@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Aluno } from 'types/aluno';
 import { Container } from '../../containers';
-import { CadastroAlunos } from './CadastroAlunos';
+import {CadastroAlunos} from './CadastroAlunos';
 import ListagemAlunos from './ListagemAlunos';
 
 export const Alunos = () => {

@@ -8,12 +8,6 @@ interface AlunoProps {
 
 export const CadastroAlunos = (props: AlunoProps) => {
 
-
-    const submitHandler = () => {
-        
-        props.onCadastroAluno(aluno)
-    }
-
     // Normal state declaration.
     const [nome, setNome] = useState('');
     const [idade, setIdade] = useState('');
