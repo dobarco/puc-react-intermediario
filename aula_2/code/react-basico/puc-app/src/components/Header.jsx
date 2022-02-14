@@ -4,7 +4,7 @@ import './Header.css';
 
 import { useSelector, useDispatch } from 'react-redux';
 
-function Header() {
+function Header(props) {
 
     //Accessing the Global State.
     const isLoggedIn = useSelector(state => state.isLoggedIn);

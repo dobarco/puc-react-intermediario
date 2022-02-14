@@ -7,6 +7,7 @@ import CadastroAluno from './components/CadastroAluno';
 import DetalhesAluno from './components/DetalhesAluno';
 import Header from './components/Header';
 import WelcomePage from './components/WelcomePage';
+import Card from './components/UI/Card';
 
 function App() {
 
@@ -46,6 +47,7 @@ function App() {
 
   return (
     <Container>
+      <Card>
         <Header/>
         {!isLoading && !error &&
           <Switch>
@@ -69,6 +71,7 @@ function App() {
         }
         {isLoading && <p>Loading...</p>}
         {!isLoading && error && <p>{error.message}</p>}
+        </Card>
     </Container>
   );
 }

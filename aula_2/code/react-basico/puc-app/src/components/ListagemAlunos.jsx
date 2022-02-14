@@ -1,6 +1,8 @@
 import Aluno from "./Aluno";
 import { Table } from 'react-bootstrap';
 
+
+// Responsável pela Listagem dos Alunos.
 function ListagemAlunos({ alunos }) {
     let alunosJsx = <tr><td>Nenhum aluno encontrado.</td></tr>;
 
